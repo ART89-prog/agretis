@@ -1,0 +1,54 @@
+@media print, (max-width: 1187px) {
+  
+    :root {
+        --font_size_title: 34px;
+    }
+    .block {
+        padding: 70px 0;
+    }
+    .services_item {
+        padding: 20px 15px 20px;
+    }
+    .services_item-icon {
+        width: 180px;
+        height: 150px;
+        margin: 0 auto 20px;
+    }
+    .services_item-icon img {
+        width: 100%;
+        height: 100%;
+    }
+    .production_item-img {
+        width: 490px;
+        height: 267px;
+    }
+    .production_item-list li span br {
+        display: none;
+    }
+    .production_item-list:first-child {
+        margin-right: 30px;
+    }
+    .production_item-list li {
+        margin-bottom: 20px;
+    }
+    .production_item:nth-child(2) .production_item-img {
+        margin-right: 30px;
+    }
+    .production_item {
+        margin-bottom: 50px;
+    }
+    .steps_item-text br {
+        display: none;
+    }
+    .footer_contact .email a {
+        margin-right: 35px;
+    }
+    .footer_logo {
+        margin-right: 35px;
+    }
+
+  
+
+
+
+}

@@ -1,12 +1,33 @@
 @media (max-width: 479px) {
 
     :root {
+        --font_size_title: 24px;
         --font_size: 15px;
     }
     .cont {
         padding: 0 15px;
     }
- 
+    header {
+        background: url(../images/header_bg-mob.jpg);
+        padding-bottom: 281px;
+    }
+    .header-contact_phone a {
+        font-size: 16px;
+    }
+    .header-info .callback_btn {
+        width: 100%;
+    }
+    .links {
+        flex-direction: column;
+    }
+    .links a:last-child {
+        width: 100%;
+    }
+    .links a:first-child {
+        margin-right: 0;
+        margin-bottom: 19px;
+        width: 100%;
+    }
 
  
 

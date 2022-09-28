@@ -22,7 +22,6 @@
 		<meta name="theme-color" content="#9EBF41">
 
 		<!-- Подключение файлов стилей -->
-		<link rel="stylesheet" href="css/fancybox.css">
 		<link rel="stylesheet" href="css/styles.css">
 
 		<link rel="stylesheet" href="css/response_1187.css" media="print, (max-width: 1187px)">
@@ -42,9 +41,9 @@
 									<img src="images/logo_header.svg" alt="">
 								</a>
 								<ul class="header_menu">
-									<li><a href="">О нас</a></li>
-									<li><a href="">Продукты</a></li>
-									<li><a href="">Контакты</a></li>								
+									<li><a href="#about">О нас</a></li>
+									<li><a href="#production">Продукты</a></li>
+									<li><a href="#contacts">Контакты</a></li>								
 								</ul>
 							</div>		
 							<div class="header_right">
@@ -77,7 +76,7 @@
 				</header>
 
 
-				<section class="production">
+				<section class="production" id="production">
 					<div class="cont">
 						<div class="block_head">
 							<div class="production_subtitle subtitle">products</div>
@@ -88,7 +87,7 @@
 								<div class="production_item-info">
 									<div class="production_item-title">
 										<div class="production_item-title-icon">
-											<img src="images/product-icon1.svg" alt="">
+											<img data-src="images/product-icon1.svg" alt="" class="lozad">
 										</div>
 										<span>Создатель умной установки</span> 
 									</div>
@@ -110,7 +109,7 @@
 								<div class="production_item-info">
 									<div class="production_item-title">
 										<div class="production_item-title-icon">
-											<img src="images/product-icon2.svg" alt="">
+											<img data-src="images/product-icon2.svg" alt="" class="lozad">
 										</div>
 										<span>Покупайте и продавайте криптовалюту</span> 
 									</div>
@@ -133,7 +132,7 @@
 								<div class="production_item-info">
 									<div class="production_item-title">
 										<div class="production_item-title-icon">
-											<img src="images/product-icon3.svg" alt="">
+											<img data-src="images/product-icon3.svg" alt="" class="lozad">
 										</div>
 										<span>Получайте только качественный трафик</span> 
 									</div>
@@ -156,7 +155,7 @@
 				</section>
 
 
-				<section class="about">
+				<section class="about" id="about">
 					<div class="cont">
 						<div class="block_head">
 							<div class="subtitle">about us</div>
@@ -165,11 +164,14 @@
 						<div class="about_items">
 							<div class="about_item">
 								<div class="about_item-info">
-									<p><b>Agretis Software Design — это компания-разработчик программного обеспечения, основанная в 2000 году и предоставляющая услуги IT-аутсорсинга.</b></p>
+									<div class="about_item-title">Agretis Software Design — это компания-разработчик программного обеспечения, основанная в 2000 году и предоставляющая услуги IT-аутсорсинга.</div>
+									<div class="about_item-img-mob">
+										<img data-src="images/about1.jpg" alt="" class="lozad">
+									</div>
 									<p>Мы стремимся к самосовершенствованию и готовы изучать новое и развиваться как в профессиональном, так и в личном плане. Компания всегда поощряет это стремление к росту и старается поддерживать высокий уровень мотивации наших специалистов, создавая благоприятные условия для движения вперед и успешного достижения профессиональных целей.</p>
 								</div>
 								<div class="about_item-img">
-									<img src="images/about1.jpg" alt="">
+									<img data-src="images/about1.jpg" alt="" class="lozad">
 								</div>
 							</div>
 							<div class="about_item">
@@ -186,7 +188,7 @@
 									</div>
 								</div>
 								<div class="about_item-img">
-									<img src="images/about2.jpg" alt="">
+									<img data-src="images/about2.jpg" alt="" class="lozad">
 								</div>
 							</div>
 						</div>
@@ -195,16 +197,20 @@
 
 
 
-				<section class="contacts">
+				<section class="contacts" id="contacts">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3613.069820854464!2d55.1749821148832!3d25.09949774181687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sDesk%20362%2C%2029th%20floor%2C%20Tameem%20House%20Building%2C%20Barsha%20Heights%2C%20Dubai%2C%20UAE%2C%20PO%20Box%20214%20950!5e0!3m2!1sru!2sby!4v1664347299474!5m2!1sru!2sby" width="100%" height="522" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>					
 					<div class="contact">
 						<div class="block_head">
 							<div class="contact_title title">Контакты</div>	
 						</div>	
+						<div class="block_head block_head-mob">
+							<div class="subtitle">contacts</div>
+							<div class="contact_title title">Agretis Software Design</div>	
+						</div>
 						<div class="contact_items">
 							<div class="contact_item">
 								<div class="contact_item-icon">
-									<img src="images/map.svg" alt="">
+									<img data-src="images/map.svg" alt="" class="lozad">
 								</div>
 								<div class="contact_item-info">
 									<div class="contact_item-title">Адрес:</div>
@@ -212,8 +218,8 @@
 								</div>
 							</div>
 							<div class="contact_item">
-								<div class="contact_item-icon">
-									<img src="images/phone.svg" alt="">
+								<div class="contact_item-icon" class="lozad">
+									<img data-src="images/phone.svg" alt="" class="lozad">
 								</div>
 								<div class="contact_item-info">
 									<div class="contact_item-title">Телефон</div>
@@ -222,7 +228,7 @@
 							</div>
 							<div class="contact_item">
 								<div class="contact_item-icon">
-									<img src="images/email.svg" alt="">
+									<img data-src="images/email.svg" alt="" class="lozad">
 								</div>
 								<div class="contact_item-info">
 									<div class="contact_item-title">E-mail:</div>
@@ -241,12 +247,15 @@
 					<div class="footer-top row">
 						<div class="footer_left">
 							<a href="#" class="footer_logo">
-								<img src="images/logo_footer.svg" alt="">
+								<img data-src="images/logo_footer.svg" alt="" class="lozad">
+							</a>
+							<a href="#" class="footer_logo footer_logo-mob">
+								<img data-src="images/logo_header.svg" alt="" class="lozad">
 							</a>
 							<ul class="footer_menu">
-								<li><a href="">О нас</a></li>
-								<li><a href="">Продукты</a></li>
-								<li><a href="">Контакты</a></li>								
+								<li><a href="#about">О нас</a></li>
+								<li><a href="#production">Продукты</a></li>
+								<li><a href="#contacts">Контакты</a></li>									
 							</ul>
 						</div>		
 						<div class="footer_right">
@@ -275,11 +284,8 @@
 		<!-- Подключение javascript файлов -->
 		<script src="js/jquery-3.5.0.min.js"></script>
 		<script src="js/lozad.min.js"></script>
-		<script src="js/inputmask.min.js"></script>
-		<script src="js/fancybox.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
 
-		
 	</body>
 </html>

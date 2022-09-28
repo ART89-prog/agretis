@@ -28,6 +28,11 @@
         margin-bottom: 19px;
         width: 100%;
     }
+    .production_item-img img {
+        width: 150%;
+        margin-left: -100px;
+        margin-top: -35px;
+    }
 
  
 

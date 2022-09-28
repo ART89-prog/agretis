@@ -223,14 +223,14 @@ input[type=number]
 {
     color: #fff;
 
-    background: #56994C;
+    background: #ff3030;
 }
 
 ::-moz-selection
 {
     color: #fff;
 
-    background: #56994C;
+    background: #ff3030;
 }
 
 
@@ -269,12 +269,12 @@ html.custom_scroll ::-webkit-scrollbar
 
 html.custom_scroll ::-webkit-scrollbar-thumb
 {
-    background-color: #56994C;
+    background-color: #DA1D1D;
 }
 
 html.custom_scroll
 {
-    scrollbar-color: #56994C #ccc;
+    scrollbar-color: #DA1D1D #ccc;
     scrollbar-width: thin;
 }
 
